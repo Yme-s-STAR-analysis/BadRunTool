@@ -5,7 +5,7 @@ using std::string;
 using std::unordered_map;
 using std::cout;
 
-BadRunTool::BadRunTool(const char* badList) {
+BadRunTool::BadRunTool() {
     const char* badList = "/path/to/bad_run.list";
     cout << "[LOG] BadRunTool: Reading bad run list " << badList << "...";
     ifstream fin;
